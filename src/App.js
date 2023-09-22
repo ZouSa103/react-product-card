@@ -8,13 +8,13 @@ import Image from "./Image";
 import { Card } from "react-bootstrap";
 
 function App() {
-  const firstName = ""; // Laissez la variable firstName vide
+  const firstName = ""; // La variable firstName est vide
 
-  // Remplissez les valeurs du produit cosmétique
+  //  les valeurs du produit cosmétique
   product.name = "La Roche-Posay Toleriane Double Repair Face Moisturizer";
   product.price = "$19.99";
   product.description = "Hydratez et réparez votre peau avec ce double hydratant facial de La Roche-Posay.";
-  product.image = "https://example.com/la-roche-posay-image.jpg"; // Remplacez par l'URL de l'image du produit
+  product.image = "https://example.com/la-roche-posay-image.jpg"; 
 
   return (
     <div className="App">
@@ -27,7 +27,7 @@ function App() {
         </Card.Body>
       </Card>
       <p>{firstName ? `Hello, ${firstName}!` : "Hello, there!"}</p>
-      {firstName && <Image imageUrl="https://example.com/your-image.jpg" />} {/* Remplacez par votre URL d'image */}
+      {firstName && <Image imageUrl="https://example.com/your-image.jpg" />} {}
     </div>
   );
 }
